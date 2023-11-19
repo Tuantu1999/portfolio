@@ -1,10 +1,7 @@
 <template>
   <v-app :class="{ 'dark-mode': darkMode }">
     <!-- Nav bar -->
-    <nav-bar
-      :isDarkMode="darkMode"
-      @onChangeThemeMode="onChangeThemeMode"
-    />
+    <nav-bar :isDarkMode="darkMode" @onChangeThemeMode="onChangeThemeMode" />
 
     <!-- Body -->
     <v-row noGutters>
