@@ -1,7 +1,6 @@
 <template>
   <a :href="redirectTo" target="_blank">
-    <v-icon class="cursor-pointer elevation-0" color="black" :icon="`mdi-${icon}`">
-    </v-icon>
+    <v-icon class="cursor-pointer elevation-0" color="black" :icon="`mdi-${icon}`"></v-icon>
   </a>
 </template>
 
